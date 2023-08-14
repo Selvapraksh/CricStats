@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UvG-pY-cFW">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cric" translatesAutoresizingMaskIntoConstraints="NO" id="KDw-tU-3wR">
+                                <rect key="frame" x="0.0" y="-35" width="1024" height="1415"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CRICSTATS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfH-AJ-Q4g">
+                                <rect key="frame" x="30" y="65" width="964" height="617"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="56"/>
+                                <color key="textColor" red="1" green="0.98921569009999999" blue="0.85763404239999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BDI-C2-OmA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BDI-C2-OmA" firstAttribute="bottom" secondItem="KDw-tU-3wR" secondAttribute="bottom" constant="-34" id="NcT-Gh-CB7"/>
+                            <constraint firstItem="BDI-C2-OmA" firstAttribute="bottom" secondItem="JfH-AJ-Q4g" secondAttribute="bottom" constant="664" id="P3g-ny-Iln"/>
+                            <constraint firstItem="KDw-tU-3wR" firstAttribute="leading" secondItem="BDI-C2-OmA" secondAttribute="leading" id="aGB-Eg-36a"/>
+                            <constraint firstItem="BDI-C2-OmA" firstAttribute="trailing" secondItem="KDw-tU-3wR" secondAttribute="trailing" id="ePi-lp-Zmq"/>
+                            <constraint firstItem="JfH-AJ-Q4g" firstAttribute="top" secondItem="BDI-C2-OmA" secondAttribute="top" constant="41" id="f58-nA-ZVV">
+                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="BDI-C2-OmA" firstAttribute="trailing" secondItem="JfH-AJ-Q4g" secondAttribute="trailing" constant="30" id="kX1-1K-os0"/>
+                            <constraint firstItem="KDw-tU-3wR" firstAttribute="top" secondItem="BDI-C2-OmA" secondAttribute="top" constant="-59" id="qGx-0r-82i">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-59"/>
+                            </constraint>
+                            <constraint firstItem="JfH-AJ-Q4g" firstAttribute="leading" secondItem="BDI-C2-OmA" secondAttribute="leading" constant="30" id="zSl-2V-B3J"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cric" width="564" height="846"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
